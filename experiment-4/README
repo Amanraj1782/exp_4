@@ -1,0 +1,22 @@
+# Backend Experiments
+
+Name: Prabhat Ranjan  
+UID: 24BCF10014  
+Section: 24BCF-1(B)
+
+## Description
+This project demonstrates:
+1. CLI Employee Management (CRUD operations)
+2. REST API for playing cards
+3. Ticket booking system with concurrency control
+
+## Features
+- Add/delete employees
+- Fetch card data
+- Seat booking with locking
+
+## Technologies
+HTML, CSS, JavaScript
+
+## Conclusion
+This project simulates backend concepts including CRUD operations, REST APIs, and concurrency handling.

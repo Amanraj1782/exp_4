@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Backend Experiments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Backend Experiments(4)</h1>
+
+<div class="buttons">
+  <button onclick="show(1)">Experiment_1.4.1</button>
+  <button onclick="show(2)">Experiment_1.4.2</button>
+  <button onclick="show(3)">Experiment_1.4.3</button>
+</div>
+
+<!-- EXP 1 -->
+<div id="exp1" class="box">
+  <h2>Employee Management</h2>
+  <input id="empName" placeholder="Enter name">
+  <button onclick="addEmp()">Add</button>
+  <ul id="empList"></ul>
+</div>
+
+<!-- EXP 2 -->
+<div id="exp2" class="box">
+  <h2>Playing Card API</h2>
+  <button onclick="getCards()">GET Cards</button>
+  <div id="cards"></div>
+</div>
+
+<!-- EXP 3 -->
+<div id="exp3" class="box">
+  <h2>Ticket Booking</h2>
+  <button onclick="bookSeat()">Book Seat</button>
+  <p id="seatStatus"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
